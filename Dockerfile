@@ -12,6 +12,6 @@ RUN set -x && \
 
 
 ENTRYPOINT [ "/bin/bash", "-c" ]
-CMD [ "ping 127.0.0.1" ] # -cの引数なので全体を囲む
+CMD [ "ls" ] # -cの引数なので全体を囲む
 VOLUME [ "/root", "/home" ]
 
